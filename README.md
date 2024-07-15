@@ -43,4 +43,12 @@
     <img src="https://skillicons.dev/icons?i=nodejs,javascript,typescript,express,firebase,mongodb,c,cpp,photoshop,illustrator" /><br>
 </div>
 <br/>
+<div align="center">
+  <h2>🐍 My Contributions 🐍</h2>
+  <br>
+  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/anisharma07/anisharma07/output/github-contribution-grid-snake.svg" />
+  
+  <br/><br/><br/>
+</div>
+
 <p align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs?username=anisharma07&show_icons=true&locale=en&layout=compact" alt="anisharma07" /></p>
