@@ -1,7 +1,8 @@
+<p align="right"> <img src="https://komarev.com/ghpvc/?username=anisharma07&label=Profile%20views&color=0e75b6&style=flat" alt="anisharma07" /> </p>
+<p align="center"><img src="https://readme-typing-svg.herokuapp.com?font=Roboto+mono&weight=900&size=30&pause=1000&color=45F700&center=true&width=435&lines=Hii+There!👋;I'm+Anirudh+Sharma;I'm+a+Computer+Science+Student;A+MERN+Developer;A+Problem+Solver" alt="Typing SVG" /></p>
 <h1 align="center">Hi 👋, I'm Anirudh Sharma</h1>
 <h3 align="center">A passionate FullStack developer from India</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=anisharma07&label=Profile%20views&color=0e75b6&style=flat" alt="anisharma07" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=anisharma07" alt="anisharma07" /></a> </p>
 
