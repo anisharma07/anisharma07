@@ -1,4 +1,4 @@
-<p align="right"> <img src="https://komarev.com/ghpvc/?username=anisharma07&label=Profile%20views&color=45F700&style=flat" alt="anisharma07" /> </p>
+<p align="right"> <img src="https://komarev.com/ghpvc/?username=anisharma07&label=Profile%20views&color=238636&style=flat" alt="anisharma07" /> </p>
 <h1 align="center">
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&color=45F700&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Anirudh+Sharma!;" />
 </h1>
