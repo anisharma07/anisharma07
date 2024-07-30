@@ -2,7 +2,7 @@
 <h1 align="center">
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&color=45F700&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Anirudh+Sharma!;" />
 </h1>
-<h2 align="center">A passionate Software Developer From India</h2>
+<h2 align="center">A passionate Full Stack Developer From India</h2>
 <br/>
 <div align="center">
   
