@@ -32,13 +32,19 @@
 <p align="left">
 </p>
 <br/><br/>
-<h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
-<br/>
+
+## Languages-Frameworks-Tools ⚙️
+  <br>
+
 <div align="center">
     <img src="https://skillicons.dev/icons?i=react,nextjs,html,css,vscode,github,figma,tailwind,git" />
     <img src="https://skillicons.dev/icons?i=nodejs,javascript,typescript,express,firebase,mongodb,c,cpp,photoshop,illustrator" /><br>
 </div>
 <br/><br/>
+
+## GSSOC(24) Badges 🪶
+  <br>
+
 <div style='display:flex; align-items:center; gap: 10px;' align='center'>
 <img src="https://raw.githubusercontent.com/girlscript/gssoc-website-new/main/public/badges/postman.png" width="100px" height="100px" />
   <img src="https://github.com/girlscript/gssoc-website-new/blob/main/public/badges/1.png" width="100px" height="100px" />
@@ -48,8 +54,9 @@
   <img src="https://github.com/girlscript/gssoc-website-new/blob/main/public/badges/5.png" width="100px" height="100px" />
 </div>
 <br/><br/>
+    
+  ## My Contributions 🐍
 <div align="center">
-  <h2>🐍 My Contributions 🐍</h2>
   <br>
   <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/anisharma07/anisharma07/output/github-contribution-grid-snake-dark.svg" />
   
