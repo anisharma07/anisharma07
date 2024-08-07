@@ -42,7 +42,10 @@
 </div>
 <br/>
 
+<a href="https://gssoc.girlscript.tech/leaderboard">
+    
 ## GSSOC(24) Badges 🪶
+</a>
   <br>
 
 <div style='display:flex; align-items:center; gap: 10px;' align='center'>
