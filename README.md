@@ -8,8 +8,6 @@
   
 🌱 I’m currently exploring Open Source and learning DSA
 
-👨‍💻 All of my projects are available at my [portfolio](https://anisharma.in) website
-
 💬 Ask me about **C++, Javascript, Python, Full stack, Blockchain, UI/UX**
 
 📫 How to reach me **👇**
@@ -19,12 +17,7 @@
   <a href="mailto:anis42390@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-333333?style=flat-square&logo=gmail&logoColor=red" />
   </a>
-  <a href="https://www.linkedin.com/in/anirudh-sharma-58ba29256" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" target="_blank" />
-  </a>
-  <a href="https://anisharma.in" target="_blank">
-     <img src="https://img.shields.io/badge/Portfolio-FF5722?style=flat-square&logo=todoist&logoColor=white" target="_blank" /> <!-- sqlite, safari, google-chrome are other good icon options -->
-  </a>
+ 
   
 </div>
 
