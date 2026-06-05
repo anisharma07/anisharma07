@@ -8,11 +8,7 @@
   
 🌱 I’m currently exploring Open Source and learning DSA
 
-👨‍💻 All of my projects are available at my [portfolio](https://anisharma.in) website
-
-💬 Ask me about **C++, Javascript, Python, Full stack, Blockchain, UI/UX**
-
-📫 How to reach me **👇**
+💬 Ask me about **C++, Javascript, Python, Full stack, Blockchain, UI/UX
 
 </div>
 
