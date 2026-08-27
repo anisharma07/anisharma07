@@ -28,7 +28,7 @@ I'm a **Full-Stack & AI Systems Engineer** currently pursuing a **Dual Degree (B
 - **[Socialcalc MCP Server](https://github.com/anisharma07)** — Model Context Protocol (MCP) server enabling LLMs to query and manipulate spreadsheets in real-time.
 - **[nftOS Marketplace](https://nftos.in)** — L2 blockchain digital asset platform with real-time MongoDB sync via IPFS Pinata.
 - **[TypeDash](https://github.com/Teamexe/Type-Dash)** — Real-time multiplayer typing battle engine handling 500+ concurrent connections with sub-50ms latency.
-- **[Portfolio Website](https://anirudh-sharma.fun)** — Interactive personal website featuring procedural Web Audio sound synthesis and AI assistant.
+- **[Portfolio Website](https://anisharma.me)** — Interactive personal website featuring procedural Web Audio sound synthesis and AI assistant.
 
 ---
 
@@ -43,7 +43,7 @@ I'm a **Full-Stack & AI Systems Engineer** currently pursuing a **Dual Degree (B
 ### 📬 Connect With Me
 
 <p align="left">
-  <a href="https://anirudh-sharma.fun"><img src="https://img.shields.io/badge/Portfolio-007ACC?style=flat-square&logo=google-chrome&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://anisharma.me"><img src="https://img.shields.io/badge/Portfolio-007ACC?style=flat-square&logo=google-chrome&logoColor=white" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/anisharma002/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://leetcode.com/u/its_ani/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
   <a href="https://codeforces.com/profile/i_am_ani"><img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=flat-square&logo=codeforces&logoColor=white" alt="Codeforces" /></a>
