@@ -1,193 +1,89 @@
 <div align="center">
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!--      ACADEMIC RESEARCH PREPRINT // COMPUTER SCIENCE FACULTY     -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- Typing Header -->
+<a href="https://anirudh-sharma.fun">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=238636&center=true&vCenter=true&width=650&height=60&lines=Hi+There!+%F0%9F%91%8B+I'm+Anirudh+Sharma;Full-Stack+%26+AI+Systems+Engineer;NIT+Hamirpur+CSE+Dual+Degree+(9.38+GPA);Wells+Fargo+Intern+%7C+2%C3%97+C4GT+DMP+Fellow;LeetCode+Top+5%25+(700%2B+Problems+Solved);" alt="Typing SVG" />
+</a>
 
-<sub><b>PREPRINT MANUSCRIPT // ACCEPTED TO GITHUB ACADEMIC PROFILES 2026</b></sub>
-
-<br/><br/>
-
-# Autonomous Multi-Agent Orchestration, Model Context Protocol (MCP), and High-Concurrency Distributed State Machines
-
-<br/>
-
-### **Anirudh Sharma** $^{1, 2, 3}$
-$^{1}$ *Department of Computer Science & Engineering, National Institute of Technology Hamirpur, India*  
-$^{2}$ *Wells Fargo (Technology Program Intern)* &nbsp;|&nbsp; $^{3}$ *Code for GovTech (2× Dedicated Mentorship Program Fellow)*  
-
-<br/>
-
-`Cumulative GPA: B.Tech: 9.19 / 10.0  |  M.Tech: 9.38 / 10.0`
-
-<br/>
-
-<!-- Academic Metadata & Index Badges -->
 <p align="center">
-  <img src="https://img.shields.io/badge/PREPRINT-arXiv%3A2026.0827-B31B1B?style=flat-square&logo=arxiv&logoColor=white" alt="arXiv" />
-  <img src="https://img.shields.io/badge/STATUS-PEER--REVIEWED%20%E2%9C%93-00ff88?style=flat-square&logo=statuspage&logoColor=black" alt="Status" />
-  <img src="https://img.shields.io/badge/AFFILIATION-NIT%20HAMIRPUR-00f2fe?style=flat-square&logo=academia&logoColor=black" alt="NIT Hamirpur" />
-  <img src="https://img.shields.io/badge/LEETCODE-TOP%205%25%20(700%2B)-FFA116?style=flat-square&logo=leetcode&logoColor=black" alt="LeetCode" />
-  <img src="https://komarev.com/ghpvc/?username=anisharma07&label=CITATIONS%20%2F%20VIEWS&color=00f2fe&style=flat-square" alt="Citations" />
+  <b>Dual Degree (B.Tech + M.Tech) in Computer Science & Engineering @ NIT Hamirpur</b>
 </p>
 
-<!-- Academic Navigation Index -->
 <p align="center">
-  <a href="#-1-abstract"><b>[ § 1 Abstract ]</b></a> •
-  <a href="#-2-mathematical-formulation-of-the-engineer"><b>[ § 2 Mathematical Model ]</b></a> •
-  <a href="#-3-technology-tensor--arsenal"><b>[ § 3 Tech Matrix ]</b></a> •
-  <a href="#-4-system-theorems--architectural-proofs"><b>[ § 4 System Theorems ]</b></a> •
-  <a href="#-5-empirical-evaluation--benchmarks"><b>[ § 5 Benchmarks ]</b></a> •
-  <a href="#-6-bibtex-citation"><b>[ § 6 BibTeX ]</b></a> •
-  <a href="#-7-peer-communications--uplink"><b>[ § 7 Uplink ]</b></a>
+  <a href="https://anirudh-sharma.fun"><img src="https://img.shields.io/badge/Website-anirudh--sharma.fun-007ACC?style=flat-square&logo=google-chrome&logoColor=white" alt="Website" /></a>
+  <a href="https://www.linkedin.com/in/anisharma002/"><img src="https://img.shields.io/badge/LinkedIn-anisharma002-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://leetcode.com/u/its_ani/"><img src="https://img.shields.io/badge/LeetCode-its__ani-FFA116?style=flat-square&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
+  <a href="https://codeforces.com/profile/i_am_ani"><img src="https://img.shields.io/badge/Codeforces-i__am__ani-1F8ACB?style=flat-square&logo=codeforces&logoColor=white" alt="Codeforces" /></a>
+  <img src="https://komarev.com/ghpvc/?username=anisharma07&label=Profile%20Views&color=238636&style=flat-square" alt="Profile Views" />
 </p>
 
 </div>
 
 ---
 
-### $\S 1 \text{ Abstract}$
+### 👨‍💻 About Me
 
-> **Abstract** — We present the engineering profile and research dossier of **Anirudh Sharma**, a dual-degree scholar in Computer Science & Engineering at the *National Institute of Technology Hamirpur* (Cumulative GPA: $9.38 / 9.19$). The researcher establishes state-of-the-art implementations across: (i) **Autonomous AI Multi-Agent Systems** and **Model Context Protocol (MCP)** tool execution, (ii) **High-Concurrency Distributed WebSockets** ($\le 50\text{ms}$ latency over $500+$ concurrent nodes), (iii) **Layer-2 Blockchain State Machines** (Starknet L2 / Ethereum), and (iv) **Algorithmic Optimization** verified by a **Global Top 5% rank** ($700+$ solved problems) on LeetCode and an international rank of **125 / 24,000+** in *GirlScript Summer of Code (GSSoC '24)*. Experience spanning **Wells Fargo** and **Code for GovTech (2× DMP Fellow)** demonstrates verifiable architectural scalability across production-grade cloud and native hybrid deployments.
-
----
-
-### $\S 2 \text{ Mathematical Formulation of the Engineer}$
-
-We formalize the engineering trajectory as an infinite-horizon Markov Decision Process (MDP) parameterized by policy $\pi_\theta$:
-
-$$
-\max_{\theta} \, \mathbb{E}_{\tau \sim \pi_{\theta}} \left[ \sum_{t=0}^{T} \gamma^t \cdot \mathcal{R}\big(\text{CodeQuality}(s_t), \, \text{Latency}(a_t)^{-1}, \, \text{Reliability}(s_t)\big) \right]
-$$
-
-where the state tensor $\mathbf{S}_{\text{Academic}}$ and industry performance vector $\mathbf{P}_{\text{Industry}}$ are bounded by:
-
-$$
-\mathbf{S}_{\text{Academic}} = \begin{pmatrix}
-\text{M.Tech GPA} & 9.38 / 10.0 \\
-\text{B.Tech GPA} & 9.19 / 10.0 \\
-\text{LeetCode Rank} & \text{Top 5\% (700+ Solved)} \\
-\text{GSSoC '24 Rank} & \text{Rank 125 / 24,000+}
-\end{pmatrix}, \qquad
-\mathbf{P}_{\text{Industry}} = \begin{pmatrix}
-\text{Wells Fargo (Intern)} \\
-\text{C4GT (2}\times\text{ DMP Fellow)} \\
-\text{Trillicorn (Full-Stack)} \\
-\text{NIT Hamirpur (.EXE)}
-\end{pmatrix}
-$$
+- 🎓 **Academics:** Pursuing a **Dual Degree (B.Tech + M.Tech)** in Computer Science & Engineering at **National Institute of Technology Hamirpur** (Cumulative GPA: **B.Tech 9.19 / 10.0** | **M.Tech 9.38 / 10.0**).
+- 💼 **Industry Experience:** Former **Technology Program Intern at Wells Fargo** — engineered automated testing suites with Playwright, built Checkmarx AI security agents, and developed Model Context Protocol (MCP) server integrations.
+- 🌐 **Open Source Leadership:** **2× Selected Fellow** for the **Code for GovTech Dedicated Mentorship Program (C4GT DMP 2025 & 2026)** — integrated Starknet L2 blockchain, engineered Socialcalc MCP server, and deployed scalable AWS infrastructure.
+- 🏆 **Competitive Programming:** **Top 5% Global Rank on LeetCode** with **700+ problems solved**; Global Rank **#125 / 24,000+** in *GirlScript Summer of Code (GSSoC '24)*.
+- 🎯 **Areas of Interest:** Autonomous AI Agents, Model Context Protocol (MCP), Distributed Systems, High-Concurrency WebSockets, and Full-Stack Engineering.
 
 ---
 
-### $\S 3 \text{ Technology Tensor \& Arsenal}$
-
-The operational stack is categorized into four orthogonal computational domains:
-
-$$
-\mathbf{T}_{\text{Arsenal}} = \begin{pmatrix}
-\text{C++} & \text{TypeScript} & \text{Python} & \text{Solidity} \\
-\text{React.js} & \text{Next.js} & \text{Node.js} & \text{TailwindCSS} \\
-\text{MCP Protocol} & \text{AWS Bedrock} & \text{Gemini 1.5} & \text{OpenCV} \\
-\text{iOS / Xcode} & \text{Capacitor} & \text{Docker} & \text{GitHub Actions}
-\end{pmatrix}
-$$
+### 🛠️ Languages & Technologies
 
 <div align="center">
 
-<br/>
-
 <a href="https://anirudh-sharma.fun">
-  <img src="https://skillicons.dev/icons?i=cpp,python,ts,js,react,nextjs,nodejs,tailwind,framer,flask,redux&theme=dark" alt="Core & Web Stack" />
+  <img src="https://skillicons.dev/icons?i=cpp,python,ts,js,react,nextjs,nodejs,tailwind,framer,flask,redux&theme=dark" alt="Languages and Frontend" />
 </a>
 <br/>
 <a href="https://anirudh-sharma.fun">
-  <img src="https://skillicons.dev/icons?i=docker,aws,githubactions,linux,solidity,postgres,mongodb,firebase,figma,postman,androidstudio,apple&theme=dark" alt="Cloud, DevOps & Mobile Stack" />
+  <img src="https://skillicons.dev/icons?i=docker,aws,githubactions,linux,solidity,postgres,mongodb,firebase,figma,postman,androidstudio,apple&theme=dark" alt="Cloud, DevOps and Tools" />
 </a>
-
-<br/><br/>
-
-```text
-[ PROFICIENCY TELEMETRY METRICS ]
-DSA & Algorithmic Optimization (C++)        [████████████████████] 98%  // Top 5% Global Rank
-Full-Stack Architecture (React, Next, Node) [██████████████████░░] 92%  // High-Throughput WebSockets
-Autonomous AI Agents & MCP Server Tooling   [██████████████████░░] 90%  // Bedrock, LLM Pipelines
-Mobile & Native Hybrid (iOS, Capacitor, RN) [████████████████░░░░] 88%  // 50+ App Store Releases
-Cloud, DevOps & Distributed Consensus       [████████████████░░░░] 85%  // Automated CI/CD & L2 Web3
-```
 
 </div>
 
----
+<br/>
 
-### $\S 4 \text{ System Theorems \& Architectural Proofs}$
-
-#### $\textbf{Theorem 1.1}$ *(Heuristic Acceleration via Generative AI — ScheduleX)*
-> Let $\mathcal{T}_{\text{Manual}}$ denote human timetable synthesis time and $\mathcal{T}_{\text{LLM}}$ denote automated Gemini AI orchestration with offline Firebase synchronization. Then:
-> 
-> $$
-> \mathcal{T}_{\text{LLM}} \le 0.30 \times \mathcal{T}_{\text{Manual}} \implies \Delta \eta \ge 70\%
-> $$
-> 
-> **Artifacts:** [📦 GitHub Source](https://github.com/anisharma07/React-native-attendance-app) • [📥 Direct Binary (.apk)](https://github.com/anisharma07/React-native-attendance-app/releases/download/v1.0.3/app-release.apk)
+| Category | Technologies |
+| :--- | :--- |
+| **Languages** | C++, Python, TypeScript, JavaScript, Solidity, SQL, HTML5, CSS3 |
+| **Frontend & UI** | React.js, Next.js, Tailwind CSS, Framer Motion, Redux, Zustand |
+| **Backend & Cloud** | Node.js, Express.js, Flask, AWS S3 / Bedrock, Firebase, MongoDB, PostgreSQL |
+| **AI & Protocols** | Model Context Protocol (MCP), Generative AI & LLMs, Gemini API, OpenCV |
+| **Mobile & Native** | iOS, Xcode, StoreKit, Capacitor, Ionic, React Native, Android Studio |
+| **DevOps & Tools** | Docker, GitHub Actions, Playwright, Linux, Git, Postman, Figma |
 
 ---
 
-#### $\textbf{Theorem 1.2}$ *(Real-Time LLM State Manipulation — Socialcalc MCP Server)*
-> The Model Context Protocol (MCP) server enables deterministic bidirectional tool calling over streaming multi-sheet matrices:
-> 
-> $$
-> \alpha_t = \text{MCP\_Execute}(\text{Query}_t, \, \mathbf{M}_{\text{Sheets}}) \quad \text{where} \quad \text{Latency}(\alpha_t) \le 10\text{ms}
-> $$
-> 
-> **Artifacts:** [🏢 Code for GovTech (C4GT Organization)](https://github.com/anisharma07)
+### 🚀 Featured Projects
+
+| Project | Description | Tech Stack | Links |
+| :--- | :--- | :--- | :--- |
+| **ScheduleX** | Intelligent schedule and timetable orchestration mobile app with Generative AI boosting scheduling velocity by 70%. | `React Native` `Gemini AI` `Firebase` | [GitHub](https://github.com/anisharma07/React-native-attendance-app) • [APK](https://github.com/anisharma07/React-native-attendance-app/releases/download/v1.0.3/app-release.apk) |
+| **Socialcalc MCP Server** | Model Context Protocol (MCP) server enabling LLMs to query and manipulate spreadsheets in real time. | `MCP` `TypeScript` `AWS S3` | [Organization](https://github.com/anisharma07) |
+| **nftOS Marketplace** | High-throughput digital asset platform with blockchain authentication and real-time MongoDB sync. | `Next.js` `Solidity` `IPFS` `MongoDB` | [Live Site](https://nftos.in) |
+| **TypeDash Engine** | Real-time competitive typing platform handling 500+ concurrent connections with sub-50ms latency. | `Node.js` `Socket.io` `Docker` `MongoDB` | [GitHub](https://github.com/Teamexe/Type-Dash) • [Demo](https://anisharma07.github.io/kangarooType/) |
+| **Atmospheric Portfolio** | Interactive web experience featuring procedural Web Audio sound synthesis and AI chatbot. | `React` `TypeScript` `Web Audio API` | [Live Site](https://anirudh-sharma.fun) • [GitHub](https://github.com/anisharma07) |
 
 ---
 
-#### $\textbf{Theorem 1.3}$ *(Decentralized Cache Acceleration — nftOS Marketplace)*
-> Combining Starknet L2 wallet authentication with IPFS Pinata gateways and real-time MongoDB sync bounds data retrieval latency:
-> 
-> $$
-> \Delta t_{\text{Decentralized}} = 0.10 \times \Delta t_{\text{Baseline}} \implies 90\% \text{ Latency Reduction}
-> $$
-> 
-> **Artifacts:** [🌐 Live Decentralized Exchange](https://nftos.in)
-
----
-
-#### $\textbf{Theorem 1.4}$ *(High-Concurrency Real-Time Telemetry — TypeDash)*
-> For $N = 500+$ concurrent socket streams, end-to-end WebSocket round-trip delay $\mathcal{L}_{\text{WebSocket}}$ satisfies:
-> 
-> $$
-> \mathcal{L}_{\text{WebSocket}} < 50\text{ms} \quad \forall u_i \in \mathcal{U}_{\text{Concurrent}}, \quad |\mathcal{U}| \ge 500
-> $$
-> 
-> **Artifacts:** [📦 GitHub Source](https://github.com/Teamexe/Type-Dash) • [🎮 Interactive Deployment](https://anisharma07.github.io/kangarooType/)
-
----
-
-#### $\textbf{Theorem 1.5}$ *(Procedural Sound Synthesis & Web Canvas — Atmospheric Portfolio)*
-> Procedural Web Audio API sound wave synthesis generates zero-asset dynamic audio profiles with low-overhead canvas particle simulation.
-> 
-> **Artifacts:** [🌐 Explore Portal](https://anirudh-sharma.fun) • [📦 GitHub Repository](https://github.com/anisharma07)
-
----
-
-### $\S 5 \text{ Empirical Evaluation \& Benchmarks}$
+### 📊 GitHub & Competitive Stats
 
 <div align="center">
 
-$$\textbf{Figure 1: Real-Time Algorithmic Performance \& Commit Activity}$$
-
-<table width="100%" border="0">
+<table border="0">
   <tr>
-    <td width="50%" align="center" valign="middle">
+    <td width="50%" align="center">
       <a href="https://leetcode.com/u/its_ani/">
-        <img src="https://leetcard.jacoblin.cool/its_ani?theme=radical&font=Fira%20Code" width="100%" alt="LeetCode Live Card" />
+        <img src="https://leetcard.jacoblin.cool/its_ani?theme=dark&font=Fira%20Code" width="100%" alt="LeetCode Stats" />
       </a>
     </td>
-    <td width="50%" align="center" valign="middle">
+    <td width="50%" align="center">
       <a href="https://github.com/anisharma07">
-        <img src="https://streak-stats.demolab.com/?user=anisharma07&theme=tokyonight&hide_border=true&background=090d16&ring=00f2fe&fire=00ff88&currStreakLabel=00f2fe" width="100%" alt="GitHub Streak Fire" />
+        <img src="https://streak-stats.demolab.com/?user=anisharma07&theme=dark&hide_border=true&background=0d1117&ring=238636&fire=238636&currStreakLabel=238636" width="100%" alt="GitHub Streak Stats" />
       </a>
     </td>
   </tr>
@@ -195,7 +91,7 @@ $$\textbf{Figure 1: Real-Time Algorithmic Performance \& Commit Activity}$$
 
 <br/>
 
-$$\textbf{Figure 2: Chronological Contribution Stream (Markov Snake Simulation)}$$
+### 🐍 Contribution Activity
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anisharma07/anisharma07/output/github-contribution-grid-snake-dark.svg">
@@ -207,62 +103,36 @@ $$\textbf{Figure 2: Chronological Contribution Stream (Markov Snake Simulation)}
 
 ---
 
-### $\S 6 \text{ BibTeX Citation}$
-
-```bibtex
-@article{sharma2026engineer,
-  title={Autonomous Multi-Agent Orchestration, Model Context Protocol, and Distributed Systems},
-  author={Sharma, Anirudh},
-  institution={National Institute of Technology Hamirpur},
-  affiliation={Wells Fargo Intern and 2x Code for GovTech DMP Fellow},
-  academic_standing={B.Tech (9.19 GPA) and M.Tech (9.38 GPA)},
-  algorithmic_rank={LeetCode Top 5 Percent, 700+ Problems Solved},
-  journal={GitHub Academic Preprint},
-  year={2026},
-  url={https://anirudh-sharma.fun}
-}
-```
-
----
-
-### $\S 7 \text{ Peer Communications \& Uplink}$
-
-$$\text{Direct Uplink Channel: } \mathcal{C} = \big\{\text{Portfolio}, \, \text{LinkedIn}, \, \text{LeetCode}, \, \text{Codeforces}, \, \text{X}, \, \text{Email}\big\}$$
+### 📬 Connect With Me
 
 <div align="center">
 
-<p>
-  <a href="https://anirudh-sharma.fun">
-    <img src="https://img.shields.io/badge/PORTFOLIO-anirudh--sharma.fun-00f2fe?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Portfolio" />
-  </a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/anisharma002/">
-    <img src="https://img.shields.io/badge/LINKEDIN-in%2Fanisharma002-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  &nbsp;
-  <a href="https://leetcode.com/u/its_ani/">
-    <img src="https://img.shields.io/badge/LEETCODE-u%2Fits__ani-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
-  </a>
-</p>
+<a href="https://anirudh-sharma.fun">
+  <img src="https://img.shields.io/badge/Portfolio-007ACC?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" />
+</a>
+&nbsp;
+<a href="https://www.linkedin.com/in/anisharma002/">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+&nbsp;
+<a href="https://leetcode.com/u/its_ani/">
+  <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
+</a>
+&nbsp;
+<a href="https://codeforces.com/profile/i_am_ani">
+  <img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces" />
+</a>
+&nbsp;
+<a href="https://x.com/SharmaAni236">
+  <img src="https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=x&logoColor=white" alt="Twitter" />
+</a>
+&nbsp;
+<a href="mailto:anisharma0010@gmail.com">
+  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+</a>
 
-<p>
-  <a href="https://codeforces.com/profile/i_am_ani">
-    <img src="https://img.shields.io/badge/CODEFORCES-i__am__ani-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces" />
-  </a>
-  &nbsp;
-  <a href="https://x.com/SharmaAni236">
-    <img src="https://img.shields.io/badge/X%20(TWITTER)-%40SharmaAni236-000000?style=for-the-badge&logo=x&logoColor=white" alt="Twitter" />
-  </a>
-  &nbsp;
-  <a href="mailto:anisharma0010@gmail.com">
-    <img src="https://img.shields.io/badge/EMAIL-anisharma0010%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-</p>
+<br/><br/>
 
-<br/>
-
-```text
-[Q.E.D.] ~ "Architecting mathematically rigorous, distributed, and autonomous software systems."
-```
+<sub><i>Designed and built by <b>Anirudh Sharma</b>. Feel free to explore my repositories!</i></sub>
 
 </div>
