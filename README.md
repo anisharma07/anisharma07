@@ -4,18 +4,25 @@
 <!--      ACADEMIC RESEARCH PREPRINT // COMPUTER SCIENCE FACULTY     -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:090d16,35:0d1b2a,70:00599c,100:00f2fe&height=210&section=header&text=ANIRUDH%20SHARMA&fontSize=48&fontColor=00f2fe&fontAlignY=40&desc=%E2%88%9E%20Department%20of%20Computer%20Science%20%26%20Engineering%20%7C%20NIT%20Hamirpur%20%E2%88%9E&descFontSize=15&descColor=00ff88&descAlignY=62" width="100%" alt="Research Paper Header" />
+<sub><b>PREPRINT MANUSCRIPT // ACCEPTED TO GITHUB ACADEMIC PROFILES 2026</b></sub>
+
+<br/><br/>
 
 # Autonomous Multi-Agent Orchestration, Model Context Protocol (MCP), and High-Concurrency Distributed State Machines
 
+<br/>
+
 ### **Anirudh Sharma** $^{1, 2, 3}$
 $^{1}$ *Department of Computer Science & Engineering, National Institute of Technology Hamirpur, India*  
-$^{2}$ *Wells Fargo (Technology Program Intern)*  
-$^{3}$ *Code for GovTech (2× Dedicated Mentorship Program Fellow)*  
+$^{2}$ *Wells Fargo (Technology Program Intern)* &nbsp;|&nbsp; $^{3}$ *Code for GovTech (2× Dedicated Mentorship Program Fellow)*  
 
-$$\text{Cumulative GPA: } \mathbf{9.38} \,/\, 10.0 \text{ (M.Tech)} \quad\vert\quad \mathbf{9.19} \,/\, 10.0 \text{ (B.Tech)}$$
+<br/>
 
-<!-- Academic & Status Metadata Badges -->
+`Cumulative GPA: B.Tech: 9.19 / 10.0  |  M.Tech: 9.38 / 10.0`
+
+<br/>
+
+<!-- Academic Metadata & Index Badges -->
 <p align="center">
   <img src="https://img.shields.io/badge/PREPRINT-arXiv%3A2026.0827-B31B1B?style=flat-square&logo=arxiv&logoColor=white" alt="arXiv" />
   <img src="https://img.shields.io/badge/STATUS-PEER--REVIEWED%20%E2%9C%93-00ff88?style=flat-square&logo=statuspage&logoColor=black" alt="Status" />
@@ -24,15 +31,15 @@ $$\text{Cumulative GPA: } \mathbf{9.38} \,/\, 10.0 \text{ (M.Tech)} \quad\vert\q
   <img src="https://komarev.com/ghpvc/?username=anisharma07&label=CITATIONS%20%2F%20VIEWS&color=00f2fe&style=flat-square" alt="Citations" />
 </p>
 
-<!-- Table of Contents / Index -->
+<!-- Academic Navigation Index -->
 <p align="center">
-  <a href="#-1-abstract"><b>Section 1: Abstract</b></a> •
-  <a href="#-2-mathematical-formulation-of-the-engineer"><b>Section 2: State Space</b></a> •
-  <a href="#-3-technology-matrix--arsenal"><b>Section 3: Tech Matrix</b></a> •
-  <a href="#-4-system-theorems--architectural-proofs"><b>Section 4: Theorems</b></a> •
-  <a href="#-5-empirical-evaluation--benchmarks"><b>Section 5: Benchmarks</b></a> •
-  <a href="#-6-bibtex-citation"><b>Section 6: BibTeX</b></a> •
-  <a href="#-7-peer-communications--uplink"><b>Section 7: Contact</b></a>
+  <a href="#-1-abstract"><b>[ § 1 Abstract ]</b></a> •
+  <a href="#-2-mathematical-formulation-of-the-engineer"><b>[ § 2 Mathematical Model ]</b></a> •
+  <a href="#-3-technology-tensor--arsenal"><b>[ § 3 Tech Matrix ]</b></a> •
+  <a href="#-4-system-theorems--architectural-proofs"><b>[ § 4 System Theorems ]</b></a> •
+  <a href="#-5-empirical-evaluation--benchmarks"><b>[ § 5 Benchmarks ]</b></a> •
+  <a href="#-6-bibtex-citation"><b>[ § 6 BibTeX ]</b></a> •
+  <a href="#-7-peer-communications--uplink"><b>[ § 7 Uplink ]</b></a>
 </p>
 
 </div>
@@ -57,8 +64,8 @@ where the state tensor $\mathbf{S}_{\text{Academic}}$ and industry performance v
 
 $$
 \mathbf{S}_{\text{Academic}} = \begin{pmatrix}
-\text{M.Tech GPA} & 9.38 \,/\, 10.0 \\
-\text{B.Tech GPA} & 9.19 \,/\, 10.0 \\
+\text{M.Tech GPA} & 9.38 / 10.0 \\
+\text{B.Tech GPA} & 9.19 / 10.0 \\
 \text{LeetCode Rank} & \text{Top 5\% (700+ Solved)} \\
 \text{GSSoC '24 Rank} & \text{Rank 125 / 24,000+}
 \end{pmatrix}, \qquad
@@ -72,7 +79,7 @@ $$
 
 ---
 
-### $\S 3 \text{ Technology Matrix \& Arsenal}$
+### $\S 3 \text{ Technology Tensor \& Arsenal}$
 
 The operational stack is categorized into four orthogonal computational domains:
 
@@ -118,7 +125,7 @@ Cloud, DevOps & Distributed Consensus       [███████████�
 > Let $\mathcal{T}_{\text{Manual}}$ denote human timetable synthesis time and $\mathcal{T}_{\text{LLM}}$ denote automated Gemini AI orchestration with offline Firebase synchronization. Then:
 > 
 > $$
-> \mathcal{T}_{\text{LLM}} \le 0.30 \times \mathcal{T}_{\text{Manual}} \implies \text{Efficiency Gain } \Delta \eta \ge 70\%
+> \mathcal{T}_{\text{LLM}} \le 0.30 \times \mathcal{T}_{\text{Manual}} \implies \Delta \eta \ge 70\%
 > $$
 > 
 > **Artifacts:** [📦 GitHub Source](https://github.com/anisharma07/React-native-attendance-app) • [📥 Direct Binary (.apk)](https://github.com/anisharma07/React-native-attendance-app/releases/download/v1.0.3/app-release.apk)
@@ -253,8 +260,6 @@ $$\text{Direct Uplink Channel: } \mathcal{C} = \big\{\text{Portfolio}, \, \text{
 </p>
 
 <br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f2fe,50:0d1b2a,100:090d16&height=100&section=footer" width="100%" alt="Footer Banner" />
 
 ```text
 [Q.E.D.] ~ "Architecting mathematically rigorous, distributed, and autonomous software systems."
