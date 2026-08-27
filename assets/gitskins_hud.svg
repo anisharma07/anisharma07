@@ -1,0 +1,503 @@
+<svg width="900" height="580" viewBox="0 0 900 580" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050c08"/>
+      <stop offset="50%" stop-color="#08140c"/>
+      <stop offset="100%" stop-color="#040a06"/>
+    </linearGradient>
+    
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d2415" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#08150c" stop-opacity="0.85"/>
+    </linearGradient>
+    
+    <linearGradient id="heroGlow" x1="0%" y1="0%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#059669" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#047857" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="accentCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="100%" stop-color="#00c6ff"/>
+    </linearGradient>
+
+    <linearGradient id="accentGreen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff88"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    
+    <linearGradient id="barPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+
+    <linearGradient id="barOrange" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#eab308"/>
+    </linearGradient>
+
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="softGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .font-mono { font-family: 'Fira Code', 'Courier New', monospace; }
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .title { font-weight: 700; font-size: 20px; fill: #ffffff; }
+    .subtext { font-size: 11px; fill: #6ee7b7; font-family: 'Fira Code', monospace; }
+    .label { font-size: 10px; fill: #10b981; font-weight: 600; font-family: 'Fira Code', monospace; letter-spacing: 0.5px; }
+    .val { font-size: 16px; font-weight: 700; fill: #ffffff; font-family: 'Fira Code', monospace; }
+    .bar-bg { fill: #132a1c; rx: 3px; }
+  </style>
+
+  <!-- Outer Console Frame -->
+  <rect x="2" y="2" width="896" height="576" rx="16" fill="url(#bgGrad)" stroke="#10b981" stroke-width="1.5" stroke-opacity="0.4"/>
+  <rect x="6" y="6" width="888" height="568" rx="12" fill="none" stroke="#052e16" stroke-width="1"/>
+
+  <!-- Top Bar -->
+  <g transform="translate(24, 28)">
+    <!-- Terminal Icon -->
+    <rect x="0" y="0" width="16" height="16" rx="4" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-width="1"/>
+    <path d="M4 8h8M8 4v8" stroke="#10b981" stroke-width="1.5" stroke-linecap="round"/>
+    <text x="26" y="13" fill="#6ee7b7" font-family="'Fira Code', monospace" font-size="13" font-weight="700" letter-spacing="1">CYBER CONSOLE // PROFILE_OS v2.6</text>
+    
+    <text x="730" y="13" fill="#059669" font-family="'Fira Code', monospace" font-size="11" text-anchor="end">SYS: ONLINE</text>
+    <circle cx="745" cy="9" r="4" fill="#00ff88" filter="url(#softGlow)"/>
+    <text x="850" y="13" fill="#6ee7b7" font-family="'Fira Code', monospace" font-size="11" text-anchor="end">NIT HAMIRPUR</text>
+  </g>
+
+  <line x1="20" y1="48" x2="880" y2="48" stroke="#10b981" stroke-opacity="0.2" stroke-width="1"/>
+
+  <!-- ==================== LEFT COLUMN (PROFILE) ==================== -->
+  <g transform="translate(24, 64)">
+    <!-- Avatar Glowing Ring -->
+    <circle cx="80" cy="80" r="66" fill="none" stroke="#00ff88" stroke-width="2" stroke-opacity="0.8" filter="url(#softGlow)"/>
+    <circle cx="80" cy="80" r="60" fill="#0d2415"/>
+    
+    <!-- Stylized Avatar Icon (Terminal / Coder Head) -->
+    <g transform="translate(45, 45)">
+      <circle cx="35" cy="30" r="22" fill="#10b981" fill-opacity="0.3"/>
+      <!-- Headphone band -->
+      <path d="M12 30 C12 14, 58 14, 58 30" fill="none" stroke="#00ff88" stroke-width="3.5" stroke-linecap="round"/>
+      <rect x="8" y="24" width="8" height="14" rx="4" fill="#00ff88"/>
+      <rect x="54" y="24" width="8" height="14" rx="4" fill="#00ff88"/>
+      <!-- Face & Visor -->
+      <circle cx="35" cy="32" r="16" fill="#061a0e" stroke="#10b981" stroke-width="1.5"/>
+      <path d="M24 30 Q35 34 46 30" stroke="#00ff88" stroke-width="2.5" fill="none" stroke-linecap="round" filter="url(#softGlow)"/>
+      <!-- Hoodie body -->
+      <path d="M16 55 C16 44, 54 44, 54 55 Z" fill="#0f3820" stroke="#10b981" stroke-width="1.5"/>
+    </g>
+
+    <!-- Name & Handle -->
+    <text x="0" y="174" fill="#ffffff" font-family="'Fira Code', monospace" font-size="18" font-weight="700">anirudhsharma</text>
+    <text x="0" y="192" fill="#6ee7b7" font-family="'Fira Code', monospace" font-size="11">Anirudh Sharma / @anisharma07</text>
+    <text x="0" y="210" fill="#a7f3d0" font-family="'Fira Code', monospace" font-size="10" opacity="0.8">Dual Degree CSE @ NIT Hamirpur</text>
+
+    <!-- 2x2 Metric Grid -->
+    <g transform="translate(0, 224)">
+      <!-- Metric 1 -->
+      <rect x="0" y="0" width="76" height="48" rx="8" fill="#0a1d12" stroke="#10b981" stroke-opacity="0.3"/>
+      <text x="10" y="20" class="val">700+</text>
+      <text x="10" y="36" class="label">DSA SOLVED</text>
+
+      <!-- Metric 2 -->
+      <rect x="84" y="0" width="76" height="48" rx="8" fill="#0a1d12" stroke="#10b981" stroke-opacity="0.3"/>
+      <text x="94" y="20" class="val">9.38</text>
+      <text x="94" y="36" class="label">M.TECH GPA</text>
+
+      <!-- Metric 3 -->
+      <rect x="0" y="56" width="76" height="48" rx="8" fill="#0a1d12" stroke="#10b981" stroke-opacity="0.3"/>
+      <text x="10" y="76" class="val">2×</text>
+      <text x="10" y="92" class="label">C4GT FELLOW</text>
+
+      <!-- Metric 4 -->
+      <rect x="84" y="56" width="76" height="48" rx="8" fill="#0a1d12" stroke="#10b981" stroke-opacity="0.3"/>
+      <text x="94" y="76" class="val">#125</text>
+      <text x="94" y="92" class="label">GSSOC '24</text>
+    </g>
+
+    <!-- Feature Tags -->
+    <g transform="translate(0, 340)">
+      <rect x="0" y="0" width="160" height="26" rx="6" fill="#08180e" stroke="#10b981" stroke-opacity="0.25"/>
+      <text x="10" y="17" fill="#6ee7b7" font-family="'Fira Code', monospace" font-size="10">+ AI Agents &amp; MCP</text>
+
+      <rect x="0" y="32" width="160" height="26" rx="6" fill="#08180e" stroke="#10b981" stroke-opacity="0.25"/>
+      <text x="10" y="49" fill="#6ee7b7" font-family="'Fira Code', monospace" font-size="10">+ WebSockets Engine</text>
+
+      <rect x="0" y="64" width="160" height="26" rx="6" fill="#08180e" stroke="#10b981" stroke-opacity="0.25"/>
+      <text x="10" y="81" fill="#6ee7b7" font-family="'Fira Code', monospace" font-size="10">+ Starknet L2 &amp; IPFS</text>
+
+      <rect x="0" y="96" width="160" height="26" rx="6" fill="#08180e" stroke="#10b981" stroke-opacity="0.25"/>
+      <text x="10" y="113" fill="#6ee7b7" font-family="'Fira Code', monospace" font-size="10">+ 50+ iOS App Store</text>
+    </g>
+  </g>
+
+  <!-- Vertical Divider -->
+  <line x1="204" y1="58" x2="204" y2="560" stroke="#10b981" stroke-opacity="0.2" stroke-width="1"/>
+
+  <!-- ==================== RIGHT MAIN COLUMN ==================== -->
+  <g transform="translate(220, 64)">
+    
+    <!-- TOP ROW: HERO CARD + TEMPLATE BADGE -->
+    <!-- Hero Banner Card -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="460" height="130" rx="12" fill="url(#cardGrad)" stroke="#10b981" stroke-opacity="0.4"/>
+      <rect x="0" y="0" width="460" height="130" rx="12" fill="url(#heroGlow)"/>
+
+      <!-- Inner Identity -->
+      <circle cx="42" cy="45" r="24" fill="#0d2415" stroke="#00ff88" stroke-width="1.5"/>
+      <text x="42" y="52" fill="#00ff88" font-family="'Fira Code', monospace" font-size="18" font-weight="700" text-anchor="middle">AS</text>
+
+      <text x="78" y="34" fill="#10b981" font-family="'Fira Code', monospace" font-size="10" font-weight="600">@anisharma07</text>
+      <text x="78" y="54" fill="#ffffff" font-family="'Fira Code', monospace" font-size="20" font-weight="700">Anirudh Sharma</text>
+      <text x="78" y="72" fill="#a7f3d0" font-family="'Fira Code', monospace" font-size="10">Full-Stack &amp; AI Systems Engineer | Wells Fargo Intern</text>
+
+      <!-- Tech Pills -->
+      <g transform="translate(20, 88)">
+        <rect x="0" y="0" width="42" height="22" rx="4" fill="#061a0e" stroke="#10b981" stroke-width="1"/>
+        <text x="21" y="15" fill="#34d399" font-family="'Fira Code', monospace" font-size="9" text-anchor="middle">C++</text>
+
+        <rect x="48" y="0" width="76" height="22" rx="4" fill="#061a0e" stroke="#10b981" stroke-width="1"/>
+        <text x="86" y="15" fill="#34d399" font-family="'Fira Code', monospace" font-size="9" text-anchor="middle">TypeScript</text>
+
+        <rect x="130" y="0" width="56" height="22" rx="4" fill="#061a0e" stroke="#10b981" stroke-width="1"/>
+        <text x="158" y="15" fill="#34d399" font-family="'Fira Code', monospace" font-size="9" text-anchor="middle">Python</text>
+
+        <rect x="192" y="0" width="68" height="22" rx="4" fill="#061a0e" stroke="#10b981" stroke-width="1"/>
+        <text x="226" y="15" fill="#34d399" font-family="'Fira Code', monospace" font-size="9" text-anchor="middle">React/Next</text>
+
+        <rect x="266" y="0" width="76" height="22" rx="4" fill="#061a0e" stroke="#10b981" stroke-width="1"/>
+        <text x="304" y="15" fill="#34d399" font-family="'Fira Code', monospace" font-size="9" text-anchor="middle">MCP Agents</text>
+      </g>
+
+      <!-- Right Stat Highlight -->
+      <g transform="translate(370, 24)">
+        <text x="70" y="24" fill="#00ff88" font-family="'Fira Code', monospace" font-size="22" font-weight="700" text-anchor="end" filter="url(#softGlow)">TOP 5%</text>
+        <text x="70" y="40" fill="#6ee7b7" font-family="'Fira Code', monospace" font-size="9" text-anchor="end">LEETCODE RANK</text>
+        <text x="70" y="54" fill="#059669" font-family="'Fira Code', monospace" font-size="9" text-anchor="end">700+ SOLVED</text>
+      </g>
+    </g>
+
+    <!-- Skin Template Card (Right Top) -->
+    <g transform="translate(476, 0)">
+      <rect x="0" y="0" width="180" height="130" rx="12" fill="url(#cardGrad)" stroke="#10b981" stroke-opacity="0.3"/>
+      <text x="16" y="26" fill="#10b981" font-family="'Fira Code', monospace" font-size="9" font-weight="700" letter-spacing="1">SKIN TEMPLATE</text>
+      <text x="16" y="50" fill="#ffffff" font-family="'Fira Code', monospace" font-size="18" font-weight="700">Cyber Matrix</text>
+      <text x="16" y="70" fill="#a7f3d0" font-family="'Fira Code', monospace" font-size="9">Terminal console skin for</text>
+      <text x="16" y="82" fill="#a7f3d0" font-family="'Fira Code', monospace" font-size="9">systems &amp; AI builders.</text>
+      
+      <!-- Connect Pill Button -->
+      <rect x="16" y="94" width="90" height="24" rx="6" fill="#10b981" fill-opacity="0.2" stroke="#00ff88" stroke-width="1"/>
+      <text x="61" y="110" fill="#00ff88" font-family="'Fira Code', monospace" font-size="9" font-weight="600" text-anchor="middle">⎘ anisharma.fun</text>
+    </g>
+
+    <!-- MIDDLE ROW: TWO SIGNAL CARDS -->
+    <!-- Left Mid: Profile Signal -->
+    <g transform="translate(0, 142)">
+      <rect x="0" y="0" width="315" height="140" rx="12" fill="url(#cardGrad)" stroke="#10b981" stroke-opacity="0.3"/>
+      
+      <text x="16" y="24" fill="#00ff88" font-family="'Fira Code', monospace" font-size="12" font-weight="700">Profile Signal</text>
+      <text x="16" y="38" fill="#6ee7b7" font-family="'Fira Code', monospace" font-size="9">Verified Metrics // NIT Hamirpur &amp; C4GT</text>
+
+      <!-- 4 Inner Boxes -->
+      <!-- Box 1 -->
+      <g transform="translate(16, 50)">
+        <rect x="0" y="0" width="64" height="42" rx="6" fill="#061a0e" stroke="#10b981" stroke-opacity="0.2"/>
+        <text x="8" y="14" fill="#10b981" font-family="'Fira Code', monospace" font-size="8">B.Tech</text>
+        <text x="8" y="32" fill="#ffffff" font-family="'Fira Code', monospace" font-size="14" font-weight="700">9.19</text>
+        <rect x="8" y="36" width="48" height="2" fill="#00ff88" rx="1"/>
+      </g>
+      <!-- Box 2 -->
+      <g transform="translate(86, 50)">
+        <rect x="0" y="0" width="64" height="42" rx="6" fill="#061a0e" stroke="#10b981" stroke-opacity="0.2"/>
+        <text x="8" y="14" fill="#10b981" font-family="'Fira Code', monospace" font-size="8">M.Tech</text>
+        <text x="8" y="32" fill="#ffffff" font-family="'Fira Code', monospace" font-size="14" font-weight="700">9.38</text>
+        <rect x="8" y="36" width="48" height="2" fill="#00f2fe" rx="1"/>
+      </g>
+      <!-- Box 3 -->
+      <g transform="translate(156, 50)">
+        <rect x="0" y="0" width="68" height="42" rx="6" fill="#061a0e" stroke="#10b981" stroke-opacity="0.2"/>
+        <text x="8" y="14" fill="#10b981" font-family="'Fira Code', monospace" font-size="8">C4GT</text>
+        <text x="8" y="32" fill="#ffffff" font-family="'Fira Code', monospace" font-size="14" font-weight="700">2× DMP</text>
+        <rect x="8" y="36" width="52" height="2" fill="#fbbf24" rx="1"/>
+      </g>
+      <!-- Box 4 -->
+      <g transform="translate(230, 50)">
+        <rect x="0" y="0" width="70" height="42" rx="6" fill="#061a0e" stroke="#10b981" stroke-opacity="0.2"/>
+        <text x="8" y="14" fill="#10b981" font-family="'Fira Code', monospace" font-size="8">GSSoC</text>
+        <text x="8" y="32" fill="#ffffff" font-family="'Fira Code', monospace" font-size="14" font-weight="700">#125</text>
+        <rect x="8" y="36" width="54" height="2" fill="#a855f7" rx="1"/>
+      </g>
+
+      <text x="16" y="118" fill="#34d399" font-family="'Fira Code', monospace" font-size="9">> Wells Fargo: Intern (Playwright MCP, Checkmarx AI)</text>
+      <text x="16" y="130" fill="#34d399" font-family="'Fira Code', monospace" font-size="9">> Published 50+ iOS hybrid apps to App Store</text>
+    </g>
+
+    <!-- Right Mid: Language Stack -->
+    <g transform="translate(325, 142)">
+      <rect x="0" y="0" width="331" height="140" rx="12" fill="url(#cardGrad)" stroke="#10b981" stroke-opacity="0.3"/>
+      
+      <text x="16" y="24" fill="#00ff88" font-family="'Fira Code', monospace" font-size="12" font-weight="700">Language Stack</text>
+      <text x="315" y="24" fill="#10b981" font-family="'Fira Code', monospace" font-size="9" text-anchor="end">> stack.scan</text>
+
+      <!-- Bar 1: C++ -->
+      <g transform="translate(16, 40)">
+        <circle cx="4" cy="4" r="3" fill="#a855f7"/>
+        <text x="14" y="7" fill="#ffffff" font-family="'Fira Code', monospace" font-size="9">C++ / Algorithms</text>
+        <text x="130" y="7" fill="#a855f7" font-family="'Fira Code', monospace" font-size="9">98%</text>
+        <rect x="160" y="1" width="140" height="7" class="bar-bg"/>
+        <rect x="160" y="1" width="137" height="7" rx="3.5" fill="url(#barPurple)"/>
+      </g>
+
+      <!-- Bar 2: TypeScript & Web -->
+      <g transform="translate(16, 62)">
+        <circle cx="4" cy="4" r="3" fill="#00f2fe"/>
+        <text x="14" y="7" fill="#ffffff" font-family="'Fira Code', monospace" font-size="9">TypeScript / React</text>
+        <text x="130" y="7" fill="#00f2fe" font-family="'Fira Code', monospace" font-size="9">92%</text>
+        <rect x="160" y="1" width="140" height="7" class="bar-bg"/>
+        <rect x="160" y="1" width="129" height="7" rx="3.5" fill="url(#accentCyan)"/>
+      </g>
+
+      <!-- Bar 3: Python & AI Agents -->
+      <g transform="translate(16, 84)">
+        <circle cx="4" cy="4" r="3" fill="#00ff88"/>
+        <text x="14" y="7" fill="#ffffff" font-family="'Fira Code', monospace" font-size="9">Python / MCP Agents</text>
+        <text x="130" y="7" fill="#00ff88" font-family="'Fira Code', monospace" font-size="9">90%</text>
+        <rect x="160" y="1" width="140" height="7" class="bar-bg"/>
+        <rect x="160" y="1" width="126" height="7" rx="3.5" fill="url(#accentGreen)"/>
+      </g>
+
+      <!-- Bar 4: Solidity & Web3 -->
+      <g transform="translate(16, 106)">
+        <circle cx="4" cy="4" r="3" fill="#f97316"/>
+        <text x="14" y="7" fill="#ffffff" font-family="'Fira Code', monospace" font-size="9">Solidity / Starknet</text>
+        <text x="130" y="7" fill="#f97316" font-family="'Fira Code', monospace" font-size="9">85%</text>
+        <rect x="160" y="1" width="140" height="7" class="bar-bg"/>
+        <rect x="160" y="1" width="119" height="7" rx="3.5" fill="url(#barOrange)"/>
+      </g>
+    </g>
+
+    <!-- BOTTOM ROW: CONTRIBUTION SIGNAL HEADER -->
+    <g transform="translate(0, 292)">
+      <rect x="0" y="0" width="656" height="195" rx="12" fill="url(#cardGrad)" stroke="#10b981" stroke-opacity="0.3"/>
+      <text x="16" y="24" fill="#00ff88" font-family="'Fira Code', monospace" font-size="12" font-weight="700">Contribution Signal // Activity Matrix</text>
+      <text x="640" y="24" fill="#10b981" font-family="'Fira Code', monospace" font-size="9" text-anchor="end">700+ Problems | 2× C4GT</text>
+
+      <!-- Simulated Dark Neon Grid Cells (28 columns x 6 rows) -->
+      <g transform="translate(16, 40)">
+<rect x="0" y="0" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="0" y="19" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="0" y="38" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="0" y="57" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="0" y="76" width="15" height="15" rx="3" fill="#144e29"/>
+        <rect x="0" y="95" width="15" height="15" rx="3" fill="#144e29"/>
+        <rect x="19" y="0" width="15" height="15" rx="3" fill="#1d753d"/>
+        <rect x="19" y="19" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="19" y="38" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="19" y="57" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="19" y="76" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="19" y="95" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="38" y="0" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="38" y="19" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="38" y="38" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="38" y="57" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="38" y="76" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="38" y="95" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="57" y="0" width="15" height="15" rx="3" fill="#1d753d"/>
+        <rect x="57" y="19" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="57" y="38" width="15" height="15" rx="3" fill="#1d753d"/>
+        <rect x="57" y="57" width="15" height="15" rx="3" fill="#144e29"/>
+        <rect x="57" y="76" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="57" y="95" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="76" y="0" width="15" height="15" rx="3" fill="#00ff88"/>
+        <rect x="76" y="19" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="76" y="38" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="76" y="57" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="76" y="76" width="15" height="15" rx="3" fill="#1d753d"/>
+        <rect x="76" y="95" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="95" y="0" width="15" height="15" rx="3" fill="#1d753d"/>
+        <rect x="95" y="19" width="15" height="15" rx="3" fill="#144e29"/>
+        <rect x="95" y="38" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="95" y="57" width="15" height="15" rx="3" fill="#00ff88"/>
+        <rect x="95" y="76" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="95" y="95" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="114" y="0" width="15" height="15" rx="3" fill="#1d753d"/>
+        <rect x="114" y="19" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="114" y="38" width="15" height="15" rx="3" fill="#1d753d"/>
+        <rect x="114" y="57" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="114" y="76" width="15" height="15" rx="3" fill="#144e29"/>
+        <rect x="114" y="95" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="133" y="0" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="133" y="19" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="133" y="38" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="133" y="57" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="133" y="76" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="133" y="95" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="152" y="0" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="152" y="19" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="152" y="38" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="152" y="57" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="152" y="76" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="152" y="95" width="15" height="15" rx="3" fill="#00ff88"/>
+        <rect x="171" y="0" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="171" y="19" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="171" y="38" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="171" y="57" width="15" height="15" rx="3" fill="#144e29"/>
+        <rect x="171" y="76" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="171" y="95" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="190" y="0" width="15" height="15" rx="3" fill="#00ff88"/>
+        <rect x="190" y="19" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="190" y="38" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="190" y="57" width="15" height="15" rx="3" fill="#144e29"/>
+        <rect x="190" y="76" width="15" height="15" rx="3" fill="#1d753d"/>
+        <rect x="190" y="95" width="15" height="15" rx="3" fill="#144e29"/>
+        <rect x="209" y="0" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="209" y="19" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="209" y="38" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="209" y="57" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="209" y="76" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="209" y="95" width="15" height="15" rx="3" fill="#00ff88"/>
+        <rect x="228" y="0" width="15" height="15" rx="3" fill="#1d753d"/>
+        <rect x="228" y="19" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="228" y="38" width="15" height="15" rx="3" fill="#144e29"/>
+        <rect x="228" y="57" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="228" y="76" width="15" height="15" rx="3" fill="#1d753d"/>
+        <rect x="228" y="95" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="247" y="0" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="247" y="19" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="247" y="38" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="247" y="57" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="247" y="76" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="247" y="95" width="15" height="15" rx="3" fill="#1d753d"/>
+        <rect x="266" y="0" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="266" y="19" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="266" y="38" width="15" height="15" rx="3" fill="#00ff88"/>
+        <rect x="266" y="57" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="266" y="76" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="266" y="95" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="285" y="0" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="285" y="19" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="285" y="38" width="15" height="15" rx="3" fill="#144e29"/>
+        <rect x="285" y="57" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="285" y="76" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="285" y="95" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="304" y="0" width="15" height="15" rx="3" fill="#00ff88"/>
+        <rect x="304" y="19" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="304" y="38" width="15" height="15" rx="3" fill="#00ff88"/>
+        <rect x="304" y="57" width="15" height="15" rx="3" fill="#1d753d"/>
+        <rect x="304" y="76" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="304" y="95" width="15" height="15" rx="3" fill="#144e29"/>
+        <rect x="323" y="0" width="15" height="15" rx="3" fill="#144e29"/>
+        <rect x="323" y="19" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="323" y="38" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="323" y="57" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="323" y="76" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="323" y="95" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="342" y="0" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="342" y="19" width="15" height="15" rx="3" fill="#00ff88"/>
+        <rect x="342" y="38" width="15" height="15" rx="3" fill="#1d753d"/>
+        <rect x="342" y="57" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="342" y="76" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="342" y="95" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="361" y="0" width="15" height="15" rx="3" fill="#1d753d"/>
+        <rect x="361" y="19" width="15" height="15" rx="3" fill="#1d753d"/>
+        <rect x="361" y="38" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="361" y="57" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="361" y="76" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="361" y="95" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="380" y="0" width="15" height="15" rx="3" fill="#144e29"/>
+        <rect x="380" y="19" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="380" y="38" width="15" height="15" rx="3" fill="#144e29"/>
+        <rect x="380" y="57" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="380" y="76" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="380" y="95" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="399" y="0" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="399" y="19" width="15" height="15" rx="3" fill="#00ff88"/>
+        <rect x="399" y="38" width="15" height="15" rx="3" fill="#1d753d"/>
+        <rect x="399" y="57" width="15" height="15" rx="3" fill="#1d753d"/>
+        <rect x="399" y="76" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="399" y="95" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="418" y="0" width="15" height="15" rx="3" fill="#1d753d"/>
+        <rect x="418" y="19" width="15" height="15" rx="3" fill="#00ff88"/>
+        <rect x="418" y="38" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="418" y="57" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="418" y="76" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="418" y="95" width="15" height="15" rx="3" fill="#144e29"/>
+        <rect x="437" y="0" width="15" height="15" rx="3" fill="#144e29"/>
+        <rect x="437" y="19" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="437" y="38" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="437" y="57" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="437" y="76" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="437" y="95" width="15" height="15" rx="3" fill="#1d753d"/>
+        <rect x="456" y="0" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="456" y="19" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="456" y="38" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="456" y="57" width="15" height="15" rx="3" fill="#144e29"/>
+        <rect x="456" y="76" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="456" y="95" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="475" y="0" width="15" height="15" rx="3" fill="#00ff88"/>
+        <rect x="475" y="19" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="475" y="38" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="475" y="57" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="475" y="76" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="475" y="95" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="494" y="0" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="494" y="19" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="494" y="38" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="494" y="57" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="494" y="76" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="494" y="95" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="513" y="0" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="513" y="19" width="15" height="15" rx="3" fill="#1d753d"/>
+        <rect x="513" y="38" width="15" height="15" rx="3" fill="#1d753d"/>
+        <rect x="513" y="57" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="513" y="76" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="513" y="95" width="15" height="15" rx="3" fill="#144e29"/>
+        <rect x="532" y="0" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="532" y="19" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="532" y="38" width="15" height="15" rx="3" fill="#00ff88"/>
+        <rect x="532" y="57" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="532" y="76" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="532" y="95" width="15" height="15" rx="3" fill="#144e29"/>
+        <rect x="551" y="0" width="15" height="15" rx="3" fill="#1d753d"/>
+        <rect x="551" y="19" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="551" y="38" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="551" y="57" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="551" y="76" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="551" y="95" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="570" y="0" width="15" height="15" rx="3" fill="#144e29"/>
+        <rect x="570" y="19" width="15" height="15" rx="3" fill="#144e29"/>
+        <rect x="570" y="38" width="15" height="15" rx="3" fill="#00ff88"/>
+        <rect x="570" y="57" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="570" y="76" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="570" y="95" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="589" y="0" width="15" height="15" rx="3" fill="#1d753d"/>
+        <rect x="589" y="19" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="589" y="38" width="15" height="15" rx="3" fill="#07190e"/>
+        <rect x="589" y="57" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="589" y="76" width="15" height="15" rx="3" fill="#0e331b"/>
+        <rect x="589" y="95" width="15" height="15" rx="3" fill="#07190e"/>
+      </g>
+
+      <!-- Legend -->
+      <g transform="translate(540, 172)">
+        <text x="-30" y="10" fill="#6ee7b7" font-family="'Fira Code', monospace" font-size="8">Less</text>
+        <rect x="0" y="0" width="10" height="10" rx="2" fill="#07190e"/>
+        <rect x="14" y="0" width="10" height="10" rx="2" fill="#0e331b"/>
+        <rect x="28" y="0" width="10" height="10" rx="2" fill="#144e29"/>
+        <rect x="42" y="0" width="10" height="10" rx="2" fill="#1d753d"/>
+        <rect x="56" y="0" width="10" height="10" rx="2" fill="#00ff88"/>
+        <text x="72" y="10" fill="#6ee7b7" font-family="'Fira Code', monospace" font-size="8">More</text>
+      </g>
+    </g>
+  </g>
+</svg>

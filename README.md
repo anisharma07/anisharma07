@@ -1,97 +1,85 @@
 <div align="center">
 
-<!-- Typing Header -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--               GITSKINS CYBER PROFILE CONSOLE                    -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
 <a href="https://anirudh-sharma.fun">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=238636&center=true&vCenter=true&width=650&height=60&lines=Hi+There!+%F0%9F%91%8B+I'm+Anirudh+Sharma;Full-Stack+%26+AI+Systems+Engineer;NIT+Hamirpur+CSE+Dual+Degree+(9.38+GPA);Wells+Fargo+Intern+%7C+2%C3%97+C4GT+DMP+Fellow;LeetCode+Top+5%25+(700%2B+Problems+Solved);" alt="Typing SVG" />
+  <img src="./assets/gitskins_hud.svg" width="100%" alt="Anirudh Sharma GitSkins Cyber Console" />
 </a>
 
+<!-- Real-Time Telemetry Badges -->
 <p align="center">
-  <b>Dual Degree (B.Tech + M.Tech) in Computer Science & Engineering @ NIT Hamirpur</b>
-</p>
-
-<p align="center">
-  <a href="https://anirudh-sharma.fun"><img src="https://img.shields.io/badge/Website-anirudh--sharma.fun-007ACC?style=flat-square&logo=google-chrome&logoColor=white" alt="Website" /></a>
+  <a href="https://anirudh-sharma.fun"><img src="https://img.shields.io/badge/Website-anirudh--sharma.fun-00f2fe?style=flat-square&logo=google-chrome&logoColor=black" alt="Website" /></a>
   <a href="https://www.linkedin.com/in/anisharma002/"><img src="https://img.shields.io/badge/LinkedIn-anisharma002-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://leetcode.com/u/its_ani/"><img src="https://img.shields.io/badge/LeetCode-its__ani-FFA116?style=flat-square&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
+  <a href="https://leetcode.com/u/its_ani/"><img src="https://img.shields.io/badge/LeetCode-TOP%205%25%20(700%2B)-FFA116?style=flat-square&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
   <a href="https://codeforces.com/profile/i_am_ani"><img src="https://img.shields.io/badge/Codeforces-i__am__ani-1F8ACB?style=flat-square&logo=codeforces&logoColor=white" alt="Codeforces" /></a>
-  <img src="https://komarev.com/ghpvc/?username=anisharma07&label=Profile%20Views&color=238636&style=flat-square" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=anisharma07&label=Console%20Views&color=00ff88&style=flat-square" alt="Profile Views" />
 </p>
 
 </div>
 
 ---
 
-### 👨‍💻 About Me
-
-- 🎓 **Academics:** Pursuing a **Dual Degree (B.Tech + M.Tech)** in Computer Science & Engineering at **National Institute of Technology Hamirpur** (Cumulative GPA: **B.Tech 9.19 / 10.0** | **M.Tech 9.38 / 10.0**).
-- 💼 **Industry Experience:** Former **Technology Program Intern at Wells Fargo** — engineered automated testing suites with Playwright, built Checkmarx AI security agents, and developed Model Context Protocol (MCP) server integrations.
-- 🌐 **Open Source Leadership:** **2× Selected Fellow** for the **Code for GovTech Dedicated Mentorship Program (C4GT DMP 2025 & 2026)** — integrated Starknet L2 blockchain, engineered Socialcalc MCP server, and deployed scalable AWS infrastructure.
-- 🏆 **Competitive Programming:** **Top 5% Global Rank on LeetCode** with **700+ problems solved**; Global Rank **#125 / 24,000+** in *GirlScript Summer of Code (GSSoC '24)*.
-- 🎯 **Areas of Interest:** Autonomous AI Agents, Model Context Protocol (MCP), Distributed Systems, High-Concurrency WebSockets, and Full-Stack Engineering.
-
----
-
-### 🛠️ Languages & Technologies
+### ⚡ Core Tech Arsenal
 
 <div align="center">
 
 <a href="https://anirudh-sharma.fun">
-  <img src="https://skillicons.dev/icons?i=cpp,python,ts,js,react,nextjs,nodejs,tailwind,framer,flask,redux&theme=dark" alt="Languages and Frontend" />
+  <img src="https://skillicons.dev/icons?i=cpp,python,ts,js,react,nextjs,nodejs,tailwind,framer,flask,redux&theme=dark" alt="Core & Web Stack" />
 </a>
 <br/>
 <a href="https://anirudh-sharma.fun">
-  <img src="https://skillicons.dev/icons?i=docker,aws,githubactions,linux,solidity,postgres,mongodb,firebase,figma,postman,androidstudio,apple&theme=dark" alt="Cloud, DevOps and Tools" />
+  <img src="https://skillicons.dev/icons?i=docker,aws,githubactions,linux,solidity,postgres,mongodb,firebase,figma,postman,androidstudio,apple&theme=dark" alt="Cloud, DevOps & Mobile Stack" />
 </a>
+
+<br/><br/>
+
+```text
+[ SYSTEM PROFICIENCY TELEMETRY ]
+C++ & Algorithmic Optimization (DSA)   [████████████████████] 98%  // LeetCode Top 5% (700+ Solved)
+Full-Stack Web (React, Next.js, TS)    [██████████████████░░] 92%  // High-Throughput & SSR
+Autonomous AI Agents & MCP Protocol    [██████████████████░░] 90%  // Tool Calling & LLMs
+Mobile Systems (iOS, Capacitor, RN)    [████████████████░░░░] 88%  // 50+ App Store Releases
+Cloud & DevOps (Docker, CI/CD, AWS)    [████████████████░░░░] 85%  // Automated Pipelines
+```
 
 </div>
 
-<br/>
-
-| Category | Technologies |
-| :--- | :--- |
-| **Languages** | C++, Python, TypeScript, JavaScript, Solidity, SQL, HTML5, CSS3 |
-| **Frontend & UI** | React.js, Next.js, Tailwind CSS, Framer Motion, Redux, Zustand |
-| **Backend & Cloud** | Node.js, Express.js, Flask, AWS S3 / Bedrock, Firebase, MongoDB, PostgreSQL |
-| **AI & Protocols** | Model Context Protocol (MCP), Generative AI & LLMs, Gemini API, OpenCV |
-| **Mobile & Native** | iOS, Xcode, StoreKit, Capacitor, Ionic, React Native, Android Studio |
-| **DevOps & Tools** | Docker, GitHub Actions, Playwright, Linux, Git, Postman, Figma |
-
 ---
 
-### 🚀 Featured Projects
+### 🚀 Featured Deployments & Architectures
 
-| Project | Description | Tech Stack | Links |
+| Deployment | Tech Stack | Engineering Highlights | Source / Demo |
 | :--- | :--- | :--- | :--- |
-| **ScheduleX** | Intelligent schedule and timetable orchestration mobile app with Generative AI boosting scheduling velocity by 70%. | `React Native` `Gemini AI` `Firebase` | [GitHub](https://github.com/anisharma07/React-native-attendance-app) • [APK](https://github.com/anisharma07/React-native-attendance-app/releases/download/v1.0.3/app-release.apk) |
-| **Socialcalc MCP Server** | Model Context Protocol (MCP) server enabling LLMs to query and manipulate spreadsheets in real time. | `MCP` `TypeScript` `AWS S3` | [Organization](https://github.com/anisharma07) |
-| **nftOS Marketplace** | High-throughput digital asset platform with blockchain authentication and real-time MongoDB sync. | `Next.js` `Solidity` `IPFS` `MongoDB` | [Live Site](https://nftos.in) |
-| **TypeDash Engine** | Real-time competitive typing platform handling 500+ concurrent connections with sub-50ms latency. | `Node.js` `Socket.io` `Docker` `MongoDB` | [GitHub](https://github.com/Teamexe/Type-Dash) • [Demo](https://anisharma07.github.io/kangarooType/) |
-| **Atmospheric Portfolio** | Interactive web experience featuring procedural Web Audio sound synthesis and AI chatbot. | `React` `TypeScript` `Web Audio API` | [Live Site](https://anirudh-sharma.fun) • [GitHub](https://github.com/anisharma07) |
+| **ScheduleX** | `React Native` `Gemini AI` `Firebase` | LLM-driven automated timetable orchestration engine boosting scheduling velocity by 70% with offline sync. | [📦 Repo](https://github.com/anisharma07/React-native-attendance-app) • [📥 APK](https://github.com/anisharma07/React-native-attendance-app/releases/download/v1.0.3/app-release.apk) |
+| **Socialcalc MCP** | `MCP Protocol` `TypeScript` `AWS S3` | Model Context Protocol server enabling LLMs to query and mutate enterprise spreadsheets in real time. | [🏢 C4GT Org](https://github.com/anisharma07) |
+| **nftOS Marketplace** | `Next.js` `Solidity` `IPFS` `MongoDB` | L2 digital asset platform with real-time MongoDB sync cutting query latency by 90% via IPFS Pinata. | [🌐 Live Platform](https://nftos.in) |
+| **TypeDash Engine** | `Node.js` `Socket.io` `Docker` | Real-time typing battle engine handling 500+ concurrent connections with sub-50ms latency. | [📦 Repo](https://github.com/Teamexe/Type-Dash) • [🎮 Demo](https://anisharma07.github.io/kangarooType/) |
+| **Atmospheric Portfolio** | `React` `TypeScript` `Web Audio API` | Immersive web experience with procedural Web Audio sound synthesis, custom particle canvas, and AI Assistant. | [🌐 Live Site](https://anirudh-sharma.fun) • [📦 Repo](https://github.com/anisharma07) |
 
 ---
 
-### 📊 GitHub & Competitive Stats
+### 🛰️ Live Telemetry & Activity Pulse
 
 <div align="center">
 
-<table border="0">
+<table width="100%" border="0">
   <tr>
-    <td width="50%" align="center">
+    <td width="50%" align="center" valign="middle">
       <a href="https://leetcode.com/u/its_ani/">
-        <img src="https://leetcard.jacoblin.cool/its_ani?theme=dark&font=Fira%20Code" width="100%" alt="LeetCode Stats" />
+        <img src="https://leetcard.jacoblin.cool/its_ani?theme=radical&font=Fira%20Code" width="100%" alt="LeetCode Live Card" />
       </a>
     </td>
-    <td width="50%" align="center">
+    <td width="50%" align="center" valign="middle">
       <a href="https://github.com/anisharma07">
-        <img src="https://streak-stats.demolab.com/?user=anisharma07&theme=dark&hide_border=true&background=0d1117&ring=238636&fire=238636&currStreakLabel=238636" width="100%" alt="GitHub Streak Stats" />
+        <img src="https://streak-stats.demolab.com/?user=anisharma07&theme=tokyonight&hide_border=true&background=090d16&ring=00f2fe&fire=00ff88&currStreakLabel=00f2fe" width="100%" alt="GitHub Streak Fire" />
       </a>
     </td>
   </tr>
 </table>
 
 <br/>
-
-### 🐍 Contribution Activity
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anisharma07/anisharma07/output/github-contribution-grid-snake-dark.svg">
@@ -103,36 +91,42 @@
 
 ---
 
-### 📬 Connect With Me
+### 📡 Secure Uplink & Network
 
 <div align="center">
 
-<a href="https://anirudh-sharma.fun">
-  <img src="https://img.shields.io/badge/Portfolio-007ACC?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" />
-</a>
-&nbsp;
-<a href="https://www.linkedin.com/in/anisharma002/">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-&nbsp;
-<a href="https://leetcode.com/u/its_ani/">
-  <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
-</a>
-&nbsp;
-<a href="https://codeforces.com/profile/i_am_ani">
-  <img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces" />
-</a>
-&nbsp;
-<a href="https://x.com/SharmaAni236">
-  <img src="https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=x&logoColor=white" alt="Twitter" />
-</a>
-&nbsp;
-<a href="mailto:anisharma0010@gmail.com">
-  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-</a>
+<p>
+  <a href="https://anirudh-sharma.fun">
+    <img src="https://img.shields.io/badge/PORTFOLIO-anirudh--sharma.fun-00f2fe?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Portfolio" />
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/anisharma002/">
+    <img src="https://img.shields.io/badge/LINKEDIN-in%2Fanisharma002-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  &nbsp;
+  <a href="https://leetcode.com/u/its_ani/">
+    <img src="https://img.shields.io/badge/LEETCODE-u%2Fits__ani-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
+  </a>
+</p>
 
-<br/><br/>
+<p>
+  <a href="https://codeforces.com/profile/i_am_ani">
+    <img src="https://img.shields.io/badge/CODEFORCES-i__am__ani-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces" />
+  </a>
+  &nbsp;
+  <a href="https://x.com/SharmaAni236">
+    <img src="https://img.shields.io/badge/X%20(TWITTER)-%40SharmaAni236-000000?style=for-the-badge&logo=x&logoColor=white" alt="Twitter" />
+  </a>
+  &nbsp;
+  <a href="mailto:anisharma0010@gmail.com">
+    <img src="https://img.shields.io/badge/EMAIL-anisharma0010%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</p>
 
-<sub><i>Designed and built by <b>Anirudh Sharma</b>. Feel free to explore my repositories!</i></sub>
+<br/>
+
+```text
+[EOF] ~ root@anirudh:~$ echo "Building resilient, autonomous & high-throughput software."
+```
 
 </div>
