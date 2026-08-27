@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                  CYBER HUD HEADER & ARTWORK MATRIX              -->
+<!--                  CYBER HUD HEADER & ARTWORK                     -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:090d16,35:0d1b2a,70:00599c,100:00f2fe&height=220&section=header&text=ANIRUDH%20SHARMA&fontSize=50&fontColor=00f2fe&fontAlignY=42&desc=%E2%9E%B8%20AI%20Systems%20Architect%20%7C%20Full-Stack%20%7C%20Distributed%20Core%20%E2%AC%9B&descFontSize=16&descColor=00ff88&descAlignY=62" width="100%" alt="Cyber Header Banner" />
@@ -11,6 +11,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1000&color=00FF88&center=true&vCenter=true&random=false&width=700&height=45&lines=%24+nit_hamirpur+--degree+cse_dual+(9.38+GPA);%24+wells_fargo+--role+intern+--mcp+playwright;%24+c4gt+--fellowship+2x_dmp+--blockchain+starknet;%24+leetcode+--rank+top_5_percent+--solved+700_plus;%24+architecting+autonomous_agents+%26+mcp_pipelines;" alt="Terminal Typing Effect" />
 </a>
 
+<!-- Real-Time Telemetry Badges -->
 <p align="center">
   <img src="https://img.shields.io/badge/NODE-ONLINE%20%E2%97%8F-00ff88?style=flat-square&logo=statuspage&logoColor=black" alt="Status Online" />
   <img src="https://img.shields.io/badge/COORDINATES-INDIA%20(IST)-00f2fe?style=flat-square&logo=googlemaps&logoColor=black" alt="Location" />
@@ -19,44 +20,23 @@
   <img src="https://komarev.com/ghpvc/?username=anisharma07&label=NET%20TRAFFIC&color=00f2fe&style=flat-square" alt="Traffic Views" />
 </p>
 
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--                  DEVELOPER WORKSTATION ARTWORK                  -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<a href="https://anirudh-sharma.fun">
+  <img src="./assets/workstation.jpg" width="100%" alt="Developer Battle Station" style="border-radius: 14px; box-shadow: 0 0 30px rgba(0, 242, 254, 0.25);" />
+</a>
+
+<p align="center">
+  <sub><code>[ OPERATOR TERMINAL // MULTI-MONITOR BATTLESTATION // NIGHT_SHIFT: ACTIVE ]</code></sub>
+</p>
+
 </div>
 
 ---
 
-### 💻 Developer Workstation // Terminal Session
-
-```text
- _________________________________________________________________________________ 
-|                                                                                 |
-|   ┌───[ MON_01: AI_AGENT.ts ]───┐         ┌───[ MON_02: TELEMETRY_HUD ]───┐     |
-|   │ 01 export class Agent {     │         │ CPU: 12%  RAM: 4.1/64GB       │     |
-|   │ 02   async solve(task) {    │         │ NET: 10 Gbps [ACTIVE]         │     |
-|   │ 03     return mcp.exec(ctx) │         │ NIT HAMIRPUR: CSE (9.38 GPA)  │     |
-|   │ 04   }                      │         │ WELLS FARGO: INTERN           │     |
-|   │ 05 }                        │         │ C4GT: 2x DMP FELLOW           │     |
-|   │ 06 // 0.04ms loop           │         │ LEETCODE: TOP 5% (700+ SOLVED)│     |
-|   └──────────────┬──────────────┘         └──────────────┬────────────────┘     |
-|                  └───────────────────┬───────────────────┘                      |
-|                                      │                                          |
-|                          __    .-----┴-----.   (~)                              |
-|                        /`  `\  | STAND_RGB |  ( ~ )         .---------------.   |
-|                       /  ==  \ '-----------' (_____)        | .-----------. |   |
-|                      |(o)  (o)|      ||      |     |        | | RGB_TOWER | |   |
-|                      |   __   |    __||__    | C8H |        | |  (O) (O)  | |   |
-|                      \  '=='  /   [======]   | 10N |        | | [==GPU==] | |   |
-|                     .-'------'-.  |  KB  |   | 4O2 |        | | ||||||||| | |   |
-|                    / /| ANIRUDH |\ |______|  '-----'        | | [==PSU==] | |   |
-|                   / / | SHARMA | \ [MS]      [COFFEE]       | '-----------' |   |
-|                  ( (  |  NIT_H |  )                         '---------------'   |
-|                   \ \ |  CSE   | /                             ||       ||      |
-|   ===========================================================================   |
-|   [ DESK_SURFACE // DARK_MATTE ]               [ CABLES // ZERO_TANGLE_OK ]     |
-|_________________________________________________________________________________|
-```
-
----
-
-### ⚡ Tech Arsenal
+### ⚡ Tech Arsenal & Neural Cores
 
 <div align="center">
 
@@ -72,18 +52,18 @@
 
 ```text
 [ PROFICIENCY TELEMETRY ]
-Algorithms & Data Structures (C++)   [████████████████████] 98%  // Top 5% Global Rank
-Full-Stack Web (React, Next.js, TS)  [██████████████████░░] 92%  // High-Throughput & SSR
-AI Agents & MCP Protocol Pipelines   [██████████████████░░] 90%  // Tool Calling & LLMs
-Mobile Systems (iOS, Capacitor, RN)  [████████████████░░░░] 88%  // 50+ Apps Deployed
-Cloud & DevOps (Docker, CI/CD, AWS)  [████████████████░░░░] 85%  // Resilient Backends
+Algorithms & Data Structures (C++)   [████████████████████] 98%  // Top 5% Global Rank (700+ Solved)
+Full-Stack Web (React, Next.js, TS)  [██████████████████░░] 92%  // High-Throughput SSR & WebSockets
+AI Agents & MCP Protocol Pipelines   [██████████████████░░] 90%  // Tool Calling, Bedrock & LLMs
+Mobile Systems (iOS, Capacitor, RN)  [████████████████░░░░] 88%  // 50+ Apps Published to App Store
+Cloud & DevOps (Docker, CI/CD, AWS)  [████████████████░░░░] 85%  // Automated Security & Deployment
 ```
 
 </div>
 
 ---
 
-### 🚀 Featured Architectures
+### 🚀 Featured Deployments & Architectures
 
 | Project | Stack | Highlights | Links |
 | :--- | :--- | :--- | :--- |
@@ -95,7 +75,7 @@ Cloud & DevOps (Docker, CI/CD, AWS)  [██████████████
 
 ---
 
-### 🛰️ Live Telemetry & Activity
+### 🛰️ Live Telemetry & Activity Pulse
 
 <div align="center">
 
@@ -126,7 +106,7 @@ Cloud & DevOps (Docker, CI/CD, AWS)  [██████████████
 
 ---
 
-### 📡 Secure Uplink
+### 📡 Secure Uplink & Network
 
 <div align="center">
 
